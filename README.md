@@ -11,13 +11,18 @@
 - 수입·지출 관리: 내역 등록(`INSERT`) 및 삭제(`DELETE`) 기능
 - 월별 동적 조회: 특정 연·월(`YYYY-MM`) 선택 시 해당 기간 내역만 필터링 조회
 
-## 🖥 실행 화면
-<img width="911" height="545" alt="image" src="https://github.com/user-attachments/assets/b1edf399-791a-4170-8a93-40a25a93d193" />
-
-
 ## 🗂 프로젝트 구조
 - `src/main/java/com/moneybook/DBConnection.java` : MariaDB 연결 관리
 - `src/main/java/com/moneybook/MoneyDTO.java` : 가계부 데이터 객체
 - `src/main/java/com/moneybook/MoneyDAO.java` : CRUD 및 집계 SQL 처리
 - `src/main/webapp/index.jsp` : 메인 대시보드 및 입력·조회 화면
 - `moneybook_db.sql` : 데이터베이스 및 테이블 생성 스크립트
+
+## 🖥 실행 화면
+<img width="303" height="181" alt="image" src="https://github.com/user-attachments/assets/b1edf399-791a-4170-8a93-40a25a93d193" />
+<img width="303" height="181" alt="image" src="https://github.com/user-attachments/assets/ef1c20e5-72f9-40d4-a1c5-998e006fd1dd" />
+<img width="303" height="181" alt="image" src="https://github.com/user-attachments/assets/1e2ad8f2-c5a8-4208-a797-1ae71abce4da" />
+<img width="303" height="181" alt="image" src="https://github.com/user-attachments/assets/ed2f1f21-a049-424d-9e4b-1b5a3dff261c" />
+
+
+
